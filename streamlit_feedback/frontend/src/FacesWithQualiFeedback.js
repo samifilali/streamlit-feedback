@@ -181,7 +181,7 @@ export function FacesWithQualiFeedback(props) {
                     {submitted === false && faceScore !== null ? <StyledTextField id="outlined-multiline-static" inputProps={{ maxLength: props.maxTextLength }} onChange={handleTextInput} multiline rows={4} placeholder={props.optionalTextLabel} aria-label="Demo input" color={TextFieldcolors[faceScore]} /> : null}
                     {submitted === false && faceScore !== null && props.reviewOnPositive === true ? <StyledTextField id="outlined-multiline-static" inputProps={{ maxLength: props.maxTextLength }} onChange={handleTextInput} multiline rows={4} placeholder={props.optionalTextLabel} aria-label="Demo input" color={TextFieldcolors[faceScore]} /> : null}
                     {submitted === false && faceScore !== "😀" && !props.reviewOnPositive ? <StyledTextField id="outlined-multiline-static" inputProps={{ maxLength: props.maxTextLength }} onChange={handleTextInput} multiline rows={4} placeholder={props.optionalTextLabel} aria-label="Demo input" color={TextFieldcolors[faceScore]} /> : null}
-                    {submitted === false && faceScore !== null ? <Button sx={{ color: colors[faceScore] }} variant="text" size="small" onClick={handleSubmission}>Submit</Button> : null}
+                    {submitted === false && faceScore !== null ? <Button sx={{ color: colors[faceScore] }} variant="text" size="small" onClick={handleSubmission}>Envoyer</Button> : null}
                 </Stack>
             </Box>
         )
@@ -249,7 +249,7 @@ export function FacesWithQualiFeedback(props) {
                     {submitted === false && faceScore !== null && props.reviewOnPositive === true ? <StyledCustomInput onChange={handleTextInput} aria-label="Demo input" placeholder={props.optionalTextLabel} color={colors[faceScore]} /> : null}
                     {submitted === false && faceScore !== "😀" && !props.reviewOnPositive? <StyledCustomInput onChange={handleTextInput} aria-label="Demo input" placeholder={props.optionalTextLabel} color={colors[faceScore]} /> : null}
                     {/* {submitted === false && faceScore !== null ? <StyledCustomInput onChange={handleTextInput} aria-label="Demo input" placeholder={props.optionalTextLabel} color={colors[faceScore]} /> : null} */}
-                    {submitted === false && faceScore !== null ? <Button sx={{ color: colors[faceScore] }} variant="text" size="small" onClick={handleSubmission}>Submit</Button> : null}
+                    {submitted === false && faceScore !== null ? <Button sx={{ color: colors[faceScore] }} variant="text" size="small" onClick={handleSubmission}>Envoyer</Button> : null}
                 </Stack>
             </Box>
         )
