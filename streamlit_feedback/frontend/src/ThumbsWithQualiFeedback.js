@@ -82,10 +82,7 @@ export function ThumbsWithQualiFeedback(props) {
     }
 
     if (submitted) {
-        thumbUpColor = thumbScore === "👍" ? colors["colorUp"] : "transparent"
-        thumbHoverUpColor = thumbScore === "👍" ? colors["colorUp"] : "transparent"
-        thumbDownColor = thumbScore === "👎" ? colors["colorDown"] : "transparent"
-        thumbHoverDownColor = thumbScore === "👎" ? colors["colorDown"] : "transparent"
+       return null
     }
 
 
