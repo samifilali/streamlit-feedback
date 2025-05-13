@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 
 const colors = {
     colorGrey: "#c7d1d3",
-    colorUp: "#4caf50",
+    colorUp: "#022c42",
     colorDown: "#f44336"
 }
 

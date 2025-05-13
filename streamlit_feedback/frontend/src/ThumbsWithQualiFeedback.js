@@ -11,12 +11,12 @@ import TextField from "@mui/material/TextField";
 
 const colors = {
     colorGrey: "#c7d1d3",
-    colorUp: "#cc4b1f",
+    colorUp: "#022c42",
     colorDown: "#cc4b1f"
 }
 
 const TextFieldcolors = {
-    colorUp: "#cc4b1f",
+    colorUp: "#022c42",
     colorDown: "#cc4b1f"
 }
 
